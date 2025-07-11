@@ -41,6 +41,9 @@ jobs:
       with:
         name: .net-app
         path: ${{env.DOTNET_ROOT}}/app.zip
+    - name: Mostrar DOTNET_ROOT
+      run: echo $DOTNET_ROOT
+
         
     # upload the bicep template as artifacts for next job
     - name: Upload artifact for deployment job
