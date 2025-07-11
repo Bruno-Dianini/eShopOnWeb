@@ -9,7 +9,7 @@ env:
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: ${{ secrets.SUBSCRIPTION_ID }}
-  WEBAPP-NAME: eshoponweb-webapp-devops
+  WEBAPP-NAME: webapp-kml-devops
 
 
 jobs:
